@@ -13,11 +13,14 @@
   },
   "keywords": [
     "react",
+    "react-filter",
+    "reactfilter",
     "collection",
     "list",
     "array",
     "filter",
-    "filtered"
+    "filtered",
+    "filtering"
   ],
   "main": "index.es5.js",
   "module": "index.js",
