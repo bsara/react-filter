@@ -100,7 +100,7 @@ class _TestComponent extends React.Component {
 
 
 
-storiesOf("@bsara/react-filter", module)
+storiesOf("react-filter", module)
   .add("Default", () => <_TestComponent />);
 
 
