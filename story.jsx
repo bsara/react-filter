@@ -79,12 +79,13 @@ class _TestComponent extends React.Component {
     return (
       <div>
         <div>
-          <a href="https://github.com/bsara/react-filter/blob/master/story.jsx">Story Source Code</a>
+          <a href="https://github.com/bsara/react-filter/blob/master/story.jsx">View story source</a>
         </div>
+        <br/>
         <div>
           <input type="text" placeholder="Filter..." value={this.state.filterText} onChange={(e) => this.setState({ filterText: e.target.value })} />
         </div>
-        <hr />
+        <hr/>
         <div>
           <Filter items={initialItems} predicateArg={this.state.filterText} predicate={_predicate} render={(filteredItems) => (
             <React.Fragment key="filtered-items-fragment">
