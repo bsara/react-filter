@@ -1,0 +1,7 @@
+*
+!/.gitignore
+!/favicon.ico
+!/iframe.html
+!/index.html
+!/static/manager.*.bundle.js
+!/static/preview.*.bundle.js
