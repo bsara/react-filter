@@ -86,7 +86,7 @@ exports.default = Filter;
 
 
 Filter.propTypes = {
-  items: _propTypes2.default.oneOfType([_propTypes2.default.array, _propTypes2.default.func]),
+  items: _propTypes2.default.array,
 
   render: _propTypes2.default.func.isRequired,
 

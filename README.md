@@ -4,6 +4,9 @@
 
 > A simple React component used for array filtering.
 
+> **NOTE:** This component uses a for-loop for filtering rather than the native
+> `Array`'s `filter` function. This means that filtering will be more performant *([see
+> jsperf test for details](https://jsperf.com/javascript-filter-vs-loop#results))*.
 
 [Storybook](https://bsara.github.io/react-filter)
 
@@ -47,10 +50,9 @@ function _predicate(item, index, predicateArg) {
 
 ## Props
 
-- **items** `?(Array|Function)`
+- **items** `?Array`
 
-  Array of items (or function which returns an array of items) to be filtered and passed
-  to `render` prop.
+  Array of items to be filtered and passed to `render` prop.
 
 - **render(filteredItems)** `!Function` - **REQUIRED**
 
@@ -66,7 +68,7 @@ function _predicate(item, index, predicateArg) {
 
   Parameter to be passed as an extra argument in `predicate` function. This prop is not
   required and is provided solely for convenience.
-  
+
 
 <br/>
 <br/>

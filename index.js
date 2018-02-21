@@ -53,7 +53,7 @@ export default class Filter extends React.Component {
 
 
 Filter.propTypes = {
-  items: PropTypes.oneOfType([PropTypes.array, PropTypes.func]),
+  items: PropTypes.array,
 
   render: PropTypes.func.isRequired,
 
