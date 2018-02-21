@@ -23,7 +23,7 @@
   "module": "index.js",
   "jsnext:main": "index.js",
   "scripts": {
-    "dist": "npm run lint && npm run dist:scripts",
+    "dist": "npm run dist:scripts",
     "dist:scripts": "npm run clean && npx babel ./index.js --source-maps -o ./index.es5.js",
     "clean": "rm -f ./index.es5.js",
     "l": "npm run lint",
