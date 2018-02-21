@@ -6,7 +6,7 @@
 
 > **NOTE:** This component uses a for-loop for filtering rather than the native
 > `Array`'s `filter` function. This means that filtering will be more performant *([see
-> jsperf test for details](https://jsperf.com/javascript-filter-vs-loop#results))*.
+> jsperf test for details](https://jsperf.com/filter-func-vs-for-loop))*.
 
 [Storybook](https://bsara.github.io/react-filter)
 
