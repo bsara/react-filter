@@ -1,6 +1,6 @@
 {
   "name": "@bsara/react-filter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple React component used for array filtering.",
   "authors": [
     "Brandon Sara (https://bsara.pro)"
@@ -34,7 +34,7 @@
     "sb": "npm run storybook",
     "storybook": "npx start-storybook -p 9800 -c .storybook",
     "generate:gh-pages": "npx build-storybook -c .storybook -o ./gh-pages",
-    "bump": "npm --no-git-tag-version version prerelease",
+    "bump": "npm --no-git-tag-version version patch",
     "bump:major": "npm --no-git-tag-version version major",
     "bump:minor": "npm --no-git-tag-version version minor",
     "bump:patch": "npm --no-git-tag-version version patch",
